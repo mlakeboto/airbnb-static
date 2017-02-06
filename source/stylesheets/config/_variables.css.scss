@@ -38,3 +38,19 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
